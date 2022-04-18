@@ -1,40 +1,49 @@
----
-title: "Seed Oil Free Foods"
-layout: default
----
-
-## UK Products
+I"õ<h2 id="uk-products">UK Products</h2>
 
 <ul>
-{% for products in site.data.products  %}
 
-{% assign product = products | where:"region","uk" | first %}
+
+
 
   <li>
-    <a href="{{ product.purchase_links['uk'][0].product_url  }}" title="{{ product.name }}">
-      {{ product.name }}
+    <a href="" title="Kerrygold Pure Irish Butter">
+      Kerrygold Pure Irish Butter
     </a>
-    <!-- ({{ org.members | size }} members) -->
+    <!-- (0 members) -->
   </li>
-{% endfor %}
+
+
+
+
+  <li>
+    <a href="" title="Mr Organic Basilico Pasta Sauce">
+      Mr Organic Basilico Pasta Sauce
+    </a>
+    <!-- (0 members) -->
+  </li>
+
 </ul>
 
-## USA Products
+<h2 id="usa-products">USA Products</h2>
 
 <ul>
-{% for products in site.data.products  %}
 
-{% assign product = products | where:"region","usa" | first %}
-{% if product.name %}
+
+
+
 
   <li>
-    <a href="{{ product.purchase_links['usa'][0].product_url }}" title="{{ product.name }}">
-      {{ product.name }}
+    <a href="" title="Kerrygold Pure Irish Butter">
+      Kerrygold Pure Irish Butter
     </a>
-    <!-- ({{ org.members | size }} members) -->
+    <!-- (0 members) -->
   </li>
-{% endif %}
-{% endfor %}
+
+
+
+
+
+
 </ul>
 
 <!--
@@ -155,3 +164,4 @@ Long, single-line code blocks should not wrap. They should horizontally scroll i
 ```
 The final element.
 ``` -->
+:ET
