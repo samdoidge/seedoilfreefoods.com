@@ -1,0 +1,14 @@
+{
+  "region": ["uk", "usa"],
+  "name": "Kerrygold Pure Irish Butter",
+  "category": "butter",
+  "diet": "gluten-free",
+  "brand": "Kerrygold",
+  "purchase_links": [
+    {
+      "company": "Waitrose",
+      "company_url": "https://www.waitrose.com",
+      "product_url": "https://www.waitrose.com/ecom/products/kerrygold-pure-irish-butter/004908-2111-2112"
+    }
+  ]
+}

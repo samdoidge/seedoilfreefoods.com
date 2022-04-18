@@ -1,0 +1,11 @@
+title: Seed Oil Free Foods
+description: A repository of foods which don't contain seed oils.
+show_downloads: false
+github:
+  owner_url: "https://github.com/samdoidge"
+  owner_name: 'Sam Doidge'
+  repository_name: "Seed Oil Free Foods"
+  repository_url: "https://github.com/samdoidge/seedoilfreefoods.com"
+  is_project_page: true
+google_analytics:
+theme: jekyll-theme-cayman
