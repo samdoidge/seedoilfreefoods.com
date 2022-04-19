@@ -1,4 +1,8 @@
 ---
 ---
 
-@import 'jekyll-theme-cayman';
+@import "jekyll-theme-cayman";
+
+h1 a {
+  color: white;
+}

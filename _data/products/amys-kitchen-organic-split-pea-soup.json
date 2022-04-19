@@ -1,0 +1,21 @@
+{
+  "region": ["uk", "us"],
+  "name": "Amy's Kitchen Organic Split Pea Soup",
+  "category": "soup",
+  "diet": ["gluten-free", "vegan", "vegetarian"],
+  "brand": "Amy's Kitchen",
+  "purchase_links": {
+    "uk": [
+      {
+        "company": "Tesco",
+        "product_url": "https://www.tesco.com/groceries/en-GB/products/301868843"
+      }
+    ],
+    "us": [
+      {
+        "company": "Amazon",
+        "product_url": "https://www.amazon.com/Amys-Soups-Organic-Split-Ounce/dp/B000WD5UKU"
+      }
+    ]
+  }
+}

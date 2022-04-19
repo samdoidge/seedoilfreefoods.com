@@ -19,16 +19,18 @@ layout: default
 {% endfor %}
 </ul>
 
-## USA Products
+  [View more UK products](/uk/products.html)
+
+## US Products
 
 <ul>
 {% for products in site.data.products  %}
 
-{% assign product = products | where:"region","usa" | first %}
+{% assign product = products | where:"region","us" | first %}
 {% if product.name %}
 
   <li>
-    <a href="{{ product.purchase_links['usa'][0].product_url }}" title="{{ product.name }}">
+    <a href="{{ product.purchase_links['us'][0].product_url }}" title="{{ product.name }}">
       {{ product.name }}
     </a>
     <!-- ({{ org.members | size }} members) -->
@@ -36,6 +38,9 @@ layout: default
 {% endif %}
 {% endfor %}
 </ul>
+
+  [View more US products](/us/products.html)
+
 
 <!--
 [Link to another page](./another-page.html).

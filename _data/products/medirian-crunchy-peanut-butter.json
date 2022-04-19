@@ -1,0 +1,18 @@
+{
+  "region": ["uk", "us"],
+  "name": "Meridian Crunchy Peanut Butter",
+  "category": "peanut-butter",
+  "diet": ["gluten-free", "vegetarian", "vegan"],
+  "brand": "Meridian",
+  "amount": "1kg",
+  "purchase_links": {
+    "uk": [{
+      "company": "Waitrose",
+      "product_url": "https://www.waitrose.com/ecom/products/meridian-crunchy-peanut-butter/495281-747772-747773?utm_source=google&utm_medium=GoogleSurfaces&utm_campaign=Shopping%20Feed&utm_content=Free%20Google%20Shopping%20Clicks"
+    }],
+    "us": [{
+      "company": "Amazon",
+      "product_url": "https://www.amazon.com/Meridian-Organic-Peanut-Butter-Crunchy/dp/B01LTINF4O"
+    }]
+  }
+}

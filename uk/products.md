@@ -1,28 +1,24 @@
-I"i<h2 id="uk-products">UK Products</h2>
+---
+title: "Seed Oil Free Foods"
+layout: default
+---
+
+## UK Products
 
 <ul>
+{% for products in site.data.products  %}
 
-
-
-  <li>
-    <a href="https://www.waitrose.com/ecom/products/kerrygold-pure-irish-butter/004908-2111-2112" title="Kerrygold Pure Irish Butter">
-      Kerrygold Pure Irish Butter
-    </a>
-    <!-- (0 members) -->
-  </li>
-
-
+{% assign product = products | where:"region","uk" | first %}
 
   <li>
-    <a href="" title="">
-      
+    <a href="{{ product.purchase_links['uk'][0].product_url  }}" title="{{ product.name }}">
+      {{ product.name }}
     </a>
-    <!-- (0 members) -->
+    <!-- ({{ org.members | size }} members) -->
   </li>
-
+{% endfor %}
 </ul>
 
-<h2 id="usa-products">USA Products</h2>
 <!--
 [Link to another page](./another-page.html).
 
@@ -141,4 +137,3 @@ Long, single-line code blocks should not wrap. They should horizontally scroll i
 ```
 The final element.
 ``` -->
-:ET
