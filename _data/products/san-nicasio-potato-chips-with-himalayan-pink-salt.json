@@ -1,0 +1,16 @@
+{
+  "region": "uk",
+  "name": "San Nicasio potato chips with Himalayan pink salt",
+  "category": "crisps",
+  "diet": ["gluten-free", "vegetarian", "vegan"],
+  "brand": "San Nicasio",
+  "amount": "150g",
+  "purchase_links": {
+    "uk": [
+      {
+        "company": "Waitrose",
+        "product_url": "https://www.waitrose.com/ecom/products/san-nicasio-potato-chips-with-himalayan-pink-salt/621784-361819-361820?utm_source=google&utm_medium=GoogleSurfaces&utm_campaign=Shopping%20Feed&utm_content=Free%20Google%20Shopping%20Clicks"
+      }
+    ]
+  }
+}
