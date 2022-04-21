@@ -20,7 +20,7 @@
 
       <h1 class="project-name"><a href="/" > <img src="{{'/assets/img/hotpot.png'}}" style="     margin-bottom: -6px;
         margin-right: 9px;
-    "/>{{ page.title | default: site.title | default: site.github.repository_name }}</a></h1>
+    "/>{{site.title | default: site.github.repository_name }}</a></h1>
     </div>
       <h2 class="project-tagline">{{ page.description | default: site.description | default: site.github.project_tagline }}</h2>
       {% if site.github.is_project_page %}

@@ -1,0 +1,19 @@
+<ul>
+
+  {% assign products_grouped = site.data.products  |  where:"region",include.region | group_by: 'category' | sort: "name" %}
+
+  {% for category in products_grouped   %}
+<h4>{{category.name}}</h4>
+  {% for product in category.items  %}
+
+  <li>
+    <a href="{{ product.purchase_links['uk'][0].product_url  }}" title="{{ product.name }}">
+         {{ product.name }}
+       </a>
+       <!-- <span>- added {{ product.date | timeago }}</span> -->
+     </li>
+
+
+  {% endfor %}
+  {% endfor %}
+  </ul>

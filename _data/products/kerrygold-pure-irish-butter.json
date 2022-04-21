@@ -1,7 +1,7 @@
 {
   "region": ["uk", "us"],
   "name": "Kerrygold Pure Irish Butter",
-  "category": "butter",
+  "category": "Butter",
   "diet": ["gluten-free", "vegetarian"],
   "brand": "Kerrygold",
   "purchase_links": {
@@ -17,5 +17,6 @@
         "product_url": "https://www.amazon.com/dp/B0011EKWBQ"
       }
     ]
-  }
+  },
+  "date": "2022-04-18"
 }

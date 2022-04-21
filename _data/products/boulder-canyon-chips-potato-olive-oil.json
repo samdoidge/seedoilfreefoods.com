@@ -1,0 +1,16 @@
+{
+  "region": ["us"],
+  "name": "Boulder Canyon's Classic Sea Salt Olive Oil Kettle Style Potato Chips",
+  "category": "Soup",
+  "diet": ["kosher", "gluten-free", "vegan", "vegetarian"],
+  "brand": "Boulder Canyon",
+  "purchase_links": {
+    "us": [
+      {
+        "company": "Amazon",
+        "product_url": "https://www.amazon.com/Boulder-Canyon-Flavor-Natural-6-5-Ounce/dp/B016BYCEJS/ref=sr_1_2_f3_0o_wf?keywords=chips+olive+oil&qid=1650577645&sprefix=chips+oli%2Caps%2C126&sr=8-2"
+      }
+    ]
+  },
+  "date": "2022-04-21"
+}

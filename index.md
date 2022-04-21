@@ -2,44 +2,21 @@
 title: "Seed Oil Free Foods"
 layout: default
 ---
+## US Products
+
+{% include recent_products.html region="us" %}
+
+  [View more US products](/us/products.html)
+
 
 ## UK Products
 
-<ul>
-{% for products in site.data.products  %}
 
-{% assign product = products | where:"region","uk" | first %}
+{% include recent_products.html region="uk" %}
 
-  <li>
-    <a href="{{ product.purchase_links['uk'][0].product_url  }}" title="{{ product.name }}">
-      {{ product.name }}
-    </a>
-    <!-- ({{ org.members | size }} members) -->
-  </li>
-{% endfor %}
-</ul>
 
   [View more UK products](/uk/products.html)
 
-## US Products
-
-<ul>
-{% for products in site.data.products  %}
-
-{% assign product = products | where:"region","us" | first %}
-{% if product.name %}
-
-  <li>
-    <a href="{{ product.purchase_links['us'][0].product_url }}" title="{{ product.name }}">
-      {{ product.name }}
-    </a>
-    <!-- ({{ org.members | size }} members) -->
-  </li>
-{% endif %}
-{% endfor %}
-</ul>
-
-  [View more US products](/us/products.html)
 
 
 <!--

@@ -1,0 +1,16 @@
+{
+  "region": ["us"],
+  "name": "365 by Whole Foods Market's Thick & Chunky Mild Salsa",
+  "category": "Soup",
+  "diet": ["organic", "gluten-free", "vegan", "vegetarian"],
+  "brand": "365 by Whole Foods Market",
+  "purchase_links": {
+    "us": [
+      {
+        "company": "Amazon",
+        "product_url": "https://www.amazon.com/365-Everyday-Value-Organic-Chunky/dp/B07NSQ98R9/ref=sr_1_3_f3_0o_wf?keywords=salsa&qid=1650577181&sr=8-3"
+      }
+    ]
+  },
+  "date": "2022-04-21"
+}

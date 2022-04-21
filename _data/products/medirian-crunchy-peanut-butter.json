@@ -1,7 +1,7 @@
 {
   "region": ["uk", "us"],
   "name": "Meridian Crunchy Peanut Butter",
-  "category": "peanut-butter",
+  "category": "Peanut Butter",
   "diet": ["gluten-free", "vegetarian", "vegan"],
   "brand": "Meridian",
   "amount": "1kg",
@@ -14,5 +14,6 @@
       "company": "Amazon",
       "product_url": "https://www.amazon.com/Meridian-Organic-Peanut-Butter-Crunchy/dp/B01LTINF4O"
     }]
-  }
+  },
+  "date": "2022-04-19"
 }

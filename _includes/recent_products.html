@@ -1,0 +1,15 @@
+<ul>
+  {% assign uk_products = site.data.products | where:"region",include.region | sort:"date" | reverse %}
+
+  {% for product in uk_products  %}
+
+
+    <li>
+   <a href="{{ product.purchase_links['uk'][0].product_url  }}" title="{{ product.name }}">
+        {{ product.name }}
+      </a>
+      <span>- added {{ product.date | timeago }}</span>
+    </li>
+
+  {% endfor %}
+  </ul>

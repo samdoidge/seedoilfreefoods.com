@@ -1,7 +1,7 @@
 {
   "region": "uk",
   "name": "Mr Organic Basilico Pasta Sauce",
-  "category": "pasta-sauce",
+  "category": "Pasta Sauce",
   "diet": ["gluten-free", "vegetarian", "vegan"],
   "brand": "Mr Organic",
   "amount": "350g",
@@ -12,5 +12,6 @@
         "product_url": "https://www.waitrose.com/ecom/products/mr-organic-basilico-pasta-sauce/492794-600576-600577?utm_source=google"
       }
     ]
-  }
+  },
+  "date": "2022-04-20"
 }

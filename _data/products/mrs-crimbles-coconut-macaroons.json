@@ -1,0 +1,23 @@
+{
+  "region": ["uk", "us"],
+  "name": "Mrs Crimble's Coconut Macaroons",
+  "category": "Cookies (Biscuits)",
+  "diet": ["gluten-free", "vegetarian", "vegan"],
+  "brand": "Mrs Crimble's",
+
+  "purchase_links": {
+    "uk": [
+      {
+        "company": "Waitrose",
+        "product_url": "https://www.waitrose.com/ecom/products/mrs-crimbles-coconut-macaroons/715202-769533-769534?utm_source=google&utm_medium=GoogleSurfaces&utm_campaign=Shopping+Feed&utm_content=Free+Google+Shopping+Clicks"
+      }
+    ],
+    "us": [
+      {
+        "company": "Amazon",
+        "product_url": "https://www.amazon.com/Mrs-Crimbles-Large-Coconut-Macaroons/dp/B01D6DB2TU"
+      }
+    ]
+  },
+  "date": "2022-04-21"
+}

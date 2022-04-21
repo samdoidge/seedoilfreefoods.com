@@ -1,7 +1,7 @@
 {
   "region": "uk",
   "name": "Tesco Mild Salsa Dip",
-  "category": "crisps",
+  "category": "Chips (Crisps)",
   "diet": ["gluten-free", "vegetarian", "vegan"],
   "brand": "Tesco",
   "amount": "300g",
@@ -12,5 +12,6 @@
         "product_url": "https://www.tesco.com/groceries/en-GB/products/257572562"
       }
     ]
-  }
+  },
+  "date": "2022-04-20"
 }
