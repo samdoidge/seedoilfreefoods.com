@@ -5,7 +5,6 @@ source "https://rubygems.org"
 gemspec
 
 
-group :jekyll_plugins do
-  gem 'jekyll-timeago'
-end
+
+gem 'jekyll-timeago'
 gem "webrick", "~> 1.7"
